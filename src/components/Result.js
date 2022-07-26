@@ -11,7 +11,7 @@ const Result = ({ userId, quizId }) => {
   };
 
   useEffect(() => {
-    fetch(`https://localhost:7017/api/Users/${userId}/quizzes/${quizId}`)
+    fetch(`https://getit-app.azurewebsites.net/api/Users/${userId}/quizzes/${quizId}`)
       .then(response => response.json())
       .then(json => setUserResult(json));
     // .catch(err => console.log(err.message));
