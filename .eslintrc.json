@@ -1,0 +1,6 @@
+{
+  "extends": ["salt", "salt/react"],
+  "rules": {
+    "react/prop-types": "off"
+  }
+}

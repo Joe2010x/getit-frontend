@@ -1,0 +1,29 @@
+.login__container {
+  padding: 1rem;
+}
+
+.login__container form {
+  padding: 1rem;
+  background-color: lightgray;
+  border-radius: 1rem;
+}
+
+.login__input {
+  display: block;
+  width: 100%;
+  margin: 0 auto 1rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.login__btn {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgb(208, 172, 126);
+  border-radius: 1rem;
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+.login__btn:hover {
+  background-color: rgb(208, 172, 126);
+}

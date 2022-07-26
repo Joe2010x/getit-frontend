@@ -1,0 +1,9 @@
+.quiz__container {
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.quiz__title {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+}

@@ -1,0 +1,15 @@
+.progressbar__container {
+  background-color: lightgray;
+  width: 80%;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+.progressbar__progress {
+  background-color: lightgreen;
+  border-radius: 1rem;
+}
+
+.progressbar__percentage {
+  padding-left: 0.5rem;
+}

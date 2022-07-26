@@ -1,0 +1,51 @@
+.result__question {
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.result__question:last-child {
+  margin-bottom: 0;
+}
+
+.questionResult__question {
+  padding: 0.3rem;
+  background-color: burlywood;
+  display: flex;
+  cursor: pointer;
+}
+
+.questionResult__icon {
+  margin: auto 0 auto auto;
+}
+
+.questionResult__title {
+  font-size: 1.2rem;
+  padding-left: .2rem;
+}
+
+.questionResult__option {
+  padding: 0.2rem;
+  background-color: lightgrey;
+  display: flex;
+}
+
+.questionResult__optionText {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding-right: 0.5rem;
+}
+
+.fa-circle-check {
+  color: green;
+}
+
+.fa-circle-xmark {
+  color: red;
+}
+
+.questionResult--chosen {
+  background-color: darkgray;
+}
